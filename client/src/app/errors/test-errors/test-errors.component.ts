@@ -26,9 +26,9 @@ export class TestErrorsComponent implements OnInit {
   get400Error() {
     this.http.get(this.baseUrl + 'buggy/bad-request').subscribe(response => {
       console.log(response);
-    }, error => {
-      console.log(error);
-    });
+    });//, error => {
+      //console.log(error);
+    //});
   }
 
   get500Error() {
