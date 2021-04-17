@@ -14,3 +14,7 @@
     border-top: none;
 }
 
+.carousel-container {
+    height: 60%;
+    width: 60%;
+}
